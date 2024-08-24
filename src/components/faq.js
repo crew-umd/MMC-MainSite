@@ -88,7 +88,7 @@ const Faq = () => {
                 />
 
                 <Typography variant="body1" sx={{ fontSize: '14px', textAlign: 'center' }}>
-                    Send us an <Link underline="hover" color="#2c2a29" href="mailto:crew.umd@gmail.com" sx={{textDecoration:'underline'}}>email</Link> if you have any additional questions
+                    Send us an email at <Link underline="hover" color="#2c2a29" href="mailto:crew.umd@gmail.com" sx={{textDecoration:'underline'}}>crew.umd@gmail.com</Link> if you have any additional questions
                 </Typography>
 
                 {faqs.map((faq, index) => (
