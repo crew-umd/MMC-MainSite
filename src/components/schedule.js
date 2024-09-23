@@ -13,12 +13,13 @@ import { useNavigate } from 'react-router-dom';
 //images
 // import ergsprints from '../images/ErgSprints.jpg';
 import ohio from '../images/ohio.jpg';
-import sju from '../images/sju.jpg';
+// import sju from '../images/sju.jpg';
 import schuykill from '../images/schuykill.jpg';
 import mason from '../images/mason.png';
 import frostbite from '../images/frostbite.jpg';
-import psucrew from '../images/psu_crew_logo.png'
+// import psucrew from '../images/psu_crew_logo.png'
 import occoquan_chase from '../images/Occoquan Chase.png'
+import charles from '../images/charles.jpg';
 
 
 const Schedule = () => {
@@ -36,9 +37,9 @@ const Schedule = () => {
 
 
   const scheduleData = [
-    { id: 1, name: 'Nittany Lion Chase', date: 'Sep 28 (Sat)', location: 'Bald Eagle State Park, Pa.', photo: psucrew },
-    { id: 2, name: 'Head of the Ohio', date: 'Oct 5-6 (Sat/Sun)', location: 'Pittsburgh, Pa.', link: 'https://www.regattacentral.com/regatta/index.jsp?job_id=8769&org_id=0', photo: ohio },
-    { id: 3, name: 'Occoquan Chase', date: 'Oct 13 (Sun)', location: 'Fairfax Station, Va.', link: 'https://www.regattacentral.com/regatta/index.jsp?job_id=8794', photo: occoquan_chase },
+    { id: 1, name: 'Head of the Ohio', date: 'Oct 5-6 (Sat/Sun)', location: 'Pittsburgh, Pa.', link: 'https://www.regattacentral.com/regatta/index.jsp?job_id=8769&org_id=0', photo: ohio },
+    { id: 2, name: 'Occoquan Chase', date: 'Oct 13 (Sun)', location: 'Fairfax Station, Va.', link: 'https://www.regattacentral.com/regatta/index.jsp?job_id=8794', photo: occoquan_chase },
+    { id: 3, name: 'Head of the Charles', date: 'Oct 19-20 (Sat/Sun)', location: 'Boston, Mass.', link: 'https://www.hocr.org/', photo: charles },
     { id: 4, name: 'Head of the Schuylkill', date: 'Oct 26 (Sat)', location: 'Philadelphia, Pa.', link: 'https://hosr.org/', photo: schuykill },
     { id: 5, name: 'Head of the Occoquan', date: 'Nov 2 (Sat)', location: 'Fairfax Station, Va.', link: 'https://www.rowobc.org/regattas-camps/hoto', photo: mason },
     { id: 6, name: 'Philadelphia Frostbite Regatta', date: 'Nov 10 (Sun)', location: 'West Windsor, NJ.', link: 'https://pennsylvaniabargeclub.org/philadelphia-frostbite-regatta/', photo: frostbite },
@@ -92,7 +93,7 @@ const Schedule = () => {
           fontFamily: '"source-sans-pro", sans-serif',
           fontWeight: '700',
           }}
-          >Spring 2024 Schedule</Typography>
+          >Fall 2024 Schedule</Typography>
         
         <Divider></Divider>
         {scheduleData.map((race) => (

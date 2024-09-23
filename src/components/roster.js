@@ -1,6 +1,5 @@
 // Roster.js
 import React, { useEffect, useState } from "react";
-import john from '../images/johndoe.jpeg';
 import logo from '../images/Maryland_logo.png';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -32,14 +31,13 @@ const Roster = () => {
     { id: 1, name: 'Arjun Akkiraju', year: 'Senior', major: 'Computer Science', hometown: 'Saratoga, Calif.', highschool: 'The Harker School', height: "5'9\"", position: "Port", photo: logo },
     { id: 2, name: 'Graham Elmore', year: 'Junior', major: 'Mechanical Engineering', hometown: 'Annapolis, Md.', highschool: 'Broadneck', height: "6'0\"", position: "Port", photo: logo },
     { id: 3, name: 'Onur Gunduz', year: 'Junior', major: 'Computer Science', hometown: 'Fairfax, Va.', highschool: 'Thomas Jefferson', height: "5'11\"", position: "Port", photo: logo },
-    { id: 4, name: 'Austin Herrera', year: 'Junior', major: 'Information Science', hometown: 'Baltimore, Md.', highschool: 'Gilman School', height: "6'0\"", position: "Starboard", photo: logo },
-    { id: 5, name: 'Prabhat Jain', year: 'Sophomore', major: 'Computer Science', hometown: 'Sykesville, Md.', highschool: 'Century', height: "5'9\"", position: "Starboard", photo: logo },
-    { id: 6, name: 'Derrick Jones', year: 'Sophomore', major: 'Undeclared', hometown: 'Upper Marlboro, Md.', highschool: 'Oxon Hill', height: "5'5\"", position: "Coxswain", photo: logo },
-    { id: 7, name: 'Peter Micciche', year: 'Junior', major: 'Economics & Finance', hometown: 'Lancaster, Pa.', highschool: 'Friends School of Baltimore', height: "6'0\"", position: "Port", photo: logo },
-    { id: 8, name: 'Arjun Pinto', year: 'Sophomore', major: 'Mechanical Engineering', hometown: 'Baltimore, Md.', highschool: 'Mount Saint Joseph', height: "5'8\"", position: "Starboard", photo: logo },
-    { id: 9, name: 'AJ Robey', year: 'Sophomore', major: 'Physiology & Neurobiology', hometown: 'Poolesville, Md.', highschool: 'Poolesville', height: "5'5\"", position: "Coxswain", photo: logo },
-    { id: 10, name: 'Anthony van Rheenan', year: 'Sophomore', major: 'Computer Science', hometown: 'Vienna, Va.', highschool: 'Thomas Jefferson', height: "6'2\"", position: "Port", photo: logo },
-    { id: 11, name: 'Austin Schaeffer', year: 'Senior', major: 'Electrical Engineering', hometown: 'Annapolis, Md.', highschool: 'Annapolis', height: "6'2\"", position: "Port", photo: logo },
+    { id: 4, name: 'Prabhat Jain', year: 'Sophomore', major: 'Computer Science', hometown: 'Sykesville, Md.', highschool: 'Century', height: "5'9\"", position: "Starboard", photo: logo },
+    { id: 5, name: 'Derrick Jones', year: 'Sophomore', major: 'Undeclared', hometown: 'Upper Marlboro, Md.', highschool: 'Oxon Hill', height: "5'5\"", position: "Coxswain", photo: logo },
+    { id: 6, name: 'Peter Micciche', year: 'Junior', major: 'Economics & Finance', hometown: 'Lancaster, Pa.', highschool: 'Friends School of Baltimore', height: "6'0\"", position: "Port", photo: logo },
+    { id: 7, name: 'Arjun Pinto', year: 'Sophomore', major: 'Mechanical Engineering', hometown: 'Baltimore, Md.', highschool: 'Mount Saint Joseph', height: "5'8\"", position: "Starboard", photo: logo },
+    { id: 8, name: 'AJ Robey', year: 'Sophomore', major: 'Physiology & Neurobiology', hometown: 'Poolesville, Md.', highschool: 'Poolesville', height: "5'5\"", position: "Coxswain", photo: logo },
+    { id: 9, name: 'Anthony van Rheenan', year: 'Sophomore', major: 'Computer Science', hometown: 'Vienna, Va.', highschool: 'Thomas Jefferson', height: "6'2\"", position: "Port", photo: logo },
+    { id: 10, name: 'Austin Schaeffer', year: 'Senior', major: 'Electrical Engineering', hometown: 'Annapolis, Md.', highschool: 'Annapolis', height: "6'2\"", position: "Port", photo: logo },
   ];
 
   
@@ -80,7 +78,7 @@ const Roster = () => {
           fontFamily: '"source-sans-pro", sans-serif',
           fontWeight: '700',
           }}
-          >2023-24 Roster</Typography>
+          >Fall 2024 Roster</Typography>
         
         <Divider></Divider>
         {rosterData.map((rower) => (
