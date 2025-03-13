@@ -29,15 +29,20 @@ const Roster = () => {
 
   const rosterData = [
     { id: 1, name: 'Arjun Akkiraju', year: 'Senior', major: 'Computer Science', hometown: 'Saratoga, Calif.', highschool: 'The Harker School', height: "5'9\"", position: "Port", photo: logo },
-    { id: 2, name: 'Graham Elmore', year: 'Junior', major: 'Mechanical Engineering', hometown: 'Annapolis, Md.', highschool: 'Broadneck', height: "6'0\"", position: "Port", photo: logo },
-    { id: 3, name: 'Onur Gunduz', year: 'Junior', major: 'Computer Science', hometown: 'Fairfax, Va.', highschool: 'Thomas Jefferson', height: "5'11\"", position: "Port", photo: logo },
-    { id: 4, name: 'Prabhat Jain', year: 'Sophomore', major: 'Computer Science', hometown: 'Sykesville, Md.', highschool: 'Century', height: "5'9\"", position: "Starboard", photo: logo },
-    { id: 5, name: 'Derrick Jones', year: 'Sophomore', major: 'Undeclared', hometown: 'Upper Marlboro, Md.', highschool: 'Oxon Hill', height: "5'5\"", position: "Coxswain", photo: logo },
-    { id: 6, name: 'Peter Micciche', year: 'Junior', major: 'Economics & Finance', hometown: 'Lancaster, Pa.', highschool: 'Friends School of Baltimore', height: "6'0\"", position: "Port", photo: logo },
-    { id: 7, name: 'Arjun Pinto', year: 'Sophomore', major: 'Mechanical Engineering', hometown: 'Baltimore, Md.', highschool: 'Mount Saint Joseph', height: "5'8\"", position: "Starboard", photo: logo },
-    { id: 8, name: 'AJ Robey', year: 'Sophomore', major: 'Physiology & Neurobiology', hometown: 'Poolesville, Md.', highschool: 'Poolesville', height: "5'5\"", position: "Coxswain", photo: logo },
-    { id: 9, name: 'Anthony van Rheenan', year: 'Sophomore', major: 'Computer Science', hometown: 'Vienna, Va.', highschool: 'Thomas Jefferson', height: "6'2\"", position: "Port", photo: logo },
-    { id: 10, name: 'Austin Schaeffer', year: 'Senior', major: 'Electrical Engineering', hometown: 'Annapolis, Md.', highschool: 'Annapolis', height: "6'2\"", position: "Port", photo: logo },
+    { id: 2, name: 'Dylan DeAngelo', year: 'Junior', major: 'Mechanical Engineering', hometown: 'Arnold, Md.', highschool: 'Broadneck', height: "6'0\"", position: "Starboard", photo: logo },
+    { id: 3, name: 'Graham Elmore', year: 'Junior', major: 'Civil Engineering', hometown: 'Annapolis, Md.', highschool: 'Broadneck', height: "6'0\"", position: "Port", photo: logo },
+    { id: 4, name: 'Onur Gunduz', year: 'Junior', major: 'Computer Science', hometown: 'Fairfax, Va.', highschool: 'Thomas Jefferson', height: "5'11\"", position: "Port", photo: logo },
+    { id: 5, name: 'Clint Hensley', year: 'Sophomore', major: 'Undecided', hometown: 'Silver Spring, Md.', highschool: 'Einstein', height: "5'9\"", position: "Starboard", photo: logo },
+    { id: 6, name: 'Prabhat Jain', year: 'Sophomore', major: 'Computer Science', hometown: 'Sykesville, Md.', highschool: 'Century', height: "5'9\"", position: "Starboard", photo: logo },
+    { id: 7, name: 'Derrick Jones', year: 'Sophomore', major: 'Undeclared', hometown: 'Upper Marlboro, Md.', highschool: 'Oxon Hill', height: "5'5\"", position: "Coxswain", photo: logo },
+    { id: 8, name: 'Jason Kearns', year: 'Junior', major: 'Information Science', hometown: 'Arnold, Md.', highschool: 'Broadneck', height: "6'0\"", position: "Starboard", photo: logo },
+    { id: 9, name: 'Justin Lee', year: 'Sophomore', major: 'Mechanical Engineering', hometown: 'McLean, Va.', highschool: 'McLean', height: "5'11\"", position: "Coxswain", photo: logo },
+    { id: 10, name: 'Peter Micciche', year: 'Junior', major: 'Applied Physics & Economics', hometown: 'Lancaster, Pa.', highschool: 'Friends School of Baltimore', height: "6'0\"", position: "Port", photo: logo },
+    { id: 11, name: 'Shomit Nazare', year: 'Freshman', major: 'Neurobiology & Physiology', hometown: 'Boyds, Md.', highschool: 'Northwest', height: "5'11\"", position: "Port", photo: logo },
+    { id: 12, name: 'Noah Ramos', year: 'Freshman', major: 'Anthropology', hometown: 'Preston, Md.', highschool: 'Easton', height: "5'5\"", position: "Port", photo: logo },
+    { id: 13, name: 'AJ Robey', year: 'Sophomore', major: 'Physiology & Neurobiology', hometown: 'Poolesville, Md.', highschool: 'Poolesville', height: "5'5\"", position: "Coxswain", photo: logo },
+    { id: 14, name: 'Austin Schaeffer', year: 'Senior', major: 'Electrical Engineering', hometown: 'Annapolis, Md.', highschool: 'Old Mill', height: "6'2\"", position: "Starboard", photo: logo },
+    { id: 15, name: 'Anthony van Rheenan', year: 'Sophomore', major: 'Computer Science', hometown: 'Vienna, Va.', highschool: 'Thomas Jefferson', height: "6'2\"", position: "Port", photo: logo },
   ];
 
   
@@ -78,7 +83,7 @@ const Roster = () => {
           fontFamily: '"source-sans-pro", sans-serif',
           fontWeight: '700',
           }}
-          >Fall 2024 Roster</Typography>
+          >Spring 2025 Roster</Typography>
         
         <Divider></Divider>
         {rosterData.map((rower) => (

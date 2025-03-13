@@ -11,15 +11,16 @@ import { Link } from "react-router-dom";
 import { useNavigate } from 'react-router-dom';
 
 //images
+
 // import ergsprints from '../images/ErgSprints.jpg';
-import ohio from '../images/ohio.jpg';
+//import ohio from '../images/ohio.jpg';
 // import sju from '../images/sju.jpg';
-import schuykill from '../images/schuykill.jpg';
+import dadvail from '../images/dadvail.jpeg';
 import mason from '../images/mason.png';
-import frostbite from '../images/frostbite.jpg';
+import vcu from '../images/vcu.jpeg';
 // import psucrew from '../images/psu_crew_logo.png'
-import occoquan_chase from '../images/Occoquan Chase.png'
-import charles from '../images/charles.jpg';
+//import occoquan_chase from '../images/Occoquan Chase.png'
+import kerrcup from '../images/drexel.jpg';
 
 
 const Schedule = () => {
@@ -37,12 +38,12 @@ const Schedule = () => {
 
 
   const scheduleData = [
-    { id: 1, name: 'Head of the Ohio', date: 'Oct 5-6 (Sat/Sun)', location: 'Pittsburgh, Pa.', link: 'https://www.regattacentral.com/regatta/index.jsp?job_id=8769&org_id=0', photo: ohio },
-    { id: 2, name: 'Occoquan Chase', date: 'Oct 13 (Sun)', location: 'Fairfax Station, Va.', link: 'https://www.regattacentral.com/regatta/index.jsp?job_id=8794', photo: occoquan_chase },
-    { id: 3, name: 'Head of the Charles', date: 'Oct 19-20 (Sat/Sun)', location: 'Boston, Mass.', link: 'https://www.hocr.org/', photo: charles },
-    { id: 4, name: 'Head of the Schuylkill', date: 'Oct 26 (Sat)', location: 'Philadelphia, Pa.', link: 'https://hosr.org/', photo: schuykill },
-    { id: 5, name: 'Head of the Occoquan', date: 'Nov 2 (Sat)', location: 'Fairfax Station, Va.', link: 'https://www.rowobc.org/regattas-camps/hoto', photo: mason },
-    { id: 6, name: 'Philadelphia Frostbite Regatta', date: 'Nov 10 (Sun)', location: 'West Windsor, NJ.', link: 'https://pennsylvaniabargeclub.org/philadelphia-frostbite-regatta/', photo: frostbite },
+    { id: 1, name: 'Commonwealth Sprints Regatta', date: 'April 6th (Sun)', location: 'Richmond, Va.', link: 'https://www.regattacentral.com/regatta/?job_id=9565&org_id=0', photo: vcu },
+    { id: 2, name: 'Kerr Cup', date: 'April 19 (Sat)', location: 'Philadelphia, Pa.', link: 'https://www.kerrcupregatta.com/', photo: kerrcup },
+    { id: 3, name: 'Mid Atlantic Crew Championship', date: 'April 27 (Sun)', location: 'Fairfax Station, Va.', link: 'https://www.gomasoncrew.com/maccc', photo: mason },
+    { id: 4, name: 'Dad Vail Regatta', date: 'May 9th (Fri)', location: 'Pennsauken, NJ. ', link: 'https://dadvail.org/', photo: dadvail }
+    // { id: 5, name: 'Head of the Occoquan', date: 'Nov 2 (Sat)', location: 'Fairfax Station, Va.', link: 'https://www.rowobc.org/regattas-camps/hoto', photo: mason },
+    // { id: 6, name: 'Philadelphia Frostbite Regatta', date: 'Nov 10 (Sun)', location: 'West Windsor, NJ.', link: 'https://pennsylvaniabargeclub.org/philadelphia-frostbite-regatta/', photo: frostbite },
 
     // { id: 2, name: 'Graham Elmore', year: 'Sophomore', major: 'Mechanical Engineering', hometown: 'Annapolis, Md.', highschool: 'Broadneck', height: "6'0\"", position: "Port", photo: john },
     // { id: 3, name: 'Onur Gunduz', year: 'Sophomore', major: 'Computer Science', hometown: 'Fairfax, Va.', highschool: 'Thomas Jefferson', height: "5'11\"", position: "Port", photo: john },
@@ -93,7 +94,7 @@ const Schedule = () => {
           fontFamily: '"source-sans-pro", sans-serif',
           fontWeight: '700',
           }}
-          >Fall 2024 Schedule</Typography>
+          >Spring 2025 Schedule</Typography>
         
         <Divider></Divider>
         {scheduleData.map((race) => (
