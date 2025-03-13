@@ -91,7 +91,7 @@ const Home = () => {
                   maxWidth: "400px",
                 }}
               >
-                We are actively recruiting for the Fall 2024 season. If you
+                We are actively recruiting for the Spring 2025 season. If you
                 are interested in joining the team, please visit our{" "}
                 <Link component={RouterLink} to="/recruiting">
                   recruitment page
