@@ -76,7 +76,7 @@ const Donate = () => {
                 />
 
                 <Typography variant="h5" sx={{textAlign: 'center' }}>
-                    <Link underline="always" target='_blank' rel="noopener noreferrer" href="https://venmo.com/u/crew_umd" sx={{color: '#de1d26'}}>DONATE HERE</Link>
+                    <Link underline="always" target='_blank' rel="noopener noreferrer" href="https://giving.umd.edu/make-a-gift?kwoDCpreselect=KDC-CS21065" sx={{color: '#de1d26'}}>DONATE HERE</Link>
                 </Typography>
 
                 <Typography variant="body1" sx={{textAlign: 'center', fontSize: '12px', marginTop: '20px', marginBottom: '20px' }}>
