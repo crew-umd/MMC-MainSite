@@ -41,6 +41,7 @@ const Roster = () => {
     { id: 11, name: 'Peter Micciche', year: 'Junior', major: 'Applied Physics & Economics', hometown: 'Lancaster, Pa.', highschool: 'Friends School of Baltimore', height: "6'0\"", position: "Port", photo: logo },
     { id: 12, name: 'Mike Montero', year: 'Junior', major: 'Public Health Science', hometown: 'Jarrettsville, Md.', highschool: 'Calvert Hall', height: "5'11\"", position: "Port", photo: logo },
     { id: 13, name: 'Shomit Nazare', year: 'Freshman', major: 'Neurobiology & Physiology', hometown: 'Boyds, Md.', highschool: 'Northwest', height: "5'11\"", position: "Port", photo: logo },
+    { id: 14, name: 'Tejas Nazare', year: 'Senior', major: 'Mathematics', hometown: 'Boyds, Md.', highschool: 'Richard Montgomery', height: "5'5\"", position: "Starboard", photo: logo },
     { id: 14, name: 'Noah Ramos', year: 'Freshman', major: 'Physics', hometown: 'Preston, Md.', highschool: 'Easton', height: "5'5\"", position: "Port", photo: logo },
     { id: 15, name: 'AJ Robey', year: 'Sophomore', major: 'Physiology & Neurobiology', hometown: 'Poolesville, Md.', highschool: 'Poolesville', height: "5'5\"", position: "Coxswain", photo: logo },
     { id: 16, name: 'Pyotr Sergeevykh', year: 'Freshman', major: 'Economics', hometown: 'Baltimore, Md.', highschool: 'Baltmore School for the Arts', height: "6'2\"", position: "Starboard", photo: logo },
