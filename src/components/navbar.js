@@ -119,6 +119,21 @@ function NavBar(props) {
                     </Link>
                 </Button>
                 ))}
+                <Button
+                  disableRipple
+                  sx={{
+                    fontWeight: 'bold',
+                    textTransform: 'none',
+                    color: '#fff',
+                    border: 1
+                  }}
+                  component="a"
+                  href="https://sewsporty.com/collections/maryland-mens-crew" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Team Store
+                </Button>
             </Box>
             </Toolbar>
         </AppBar>
