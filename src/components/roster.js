@@ -35,6 +35,7 @@ import Pyotr from '../images/roster_images/Pyotr.png';
 import Austin from '../images/roster_images/Austin.png';
 import Anthony from '../images/roster_images/Anthony.png';
 import Tristan from '../images/roster_images/Tristan.png';
+import Default from '../images/roster_images/default.png';
 
 const Roster = () => {
   const navigate = useNavigate();
@@ -49,6 +50,7 @@ const Roster = () => {
   };
 
 
+  // Format: { id: , name: '', year: '', major: '', hometown: '', highschool: '', height: "", position: '', photo: },
   const rosterData = [
     // { id: 1, name: 'Arjun Akkiraju', year: 'Senior', major: 'Computer Science', hometown: 'Saratoga, Calif.', highschool: 'The Harker School', height: "5'9\"", position: "Starboard", photo: Arjun },
     { id: 2, name: 'Dylan DeAngelo', year: 'Senior', major: 'Mechanical Engineering', hometown: 'Arnold, Md.', highschool: 'Broadneck', height: "6'0\"", position: "Starboard", photo: Dylan },
@@ -61,7 +63,7 @@ const Roster = () => {
     { id: 9, name: 'Jason Kearns', year: 'Senior', major: 'Information Science', hometown: 'Arnold, Md.', highschool: 'Broadneck', height: "6'0\"", position: "Starboard", photo: Jason },
     { id: 10, name: 'Justin Lee', year: 'Junior', major: 'Mechanical Engineering', hometown: 'McLean, Va.', highschool: 'McLean', height: "5'11\"", position: "Coxswain", photo: Justin },
     // { id: 11, name: 'Adam Lofft', year: 'Junior', major: 'Accounting & Finance', hometown: 'Columbia, Md.', highschool: 'Atholton', height: "6'0\"", position: "Port", photo: Adam },
-    { id: 12, name: 'Peter Micciche', year: 'Senior', major: 'Physics & Economics', hometown: 'Lancaster, Pa.', highschool: 'Friends School of Baltimore', height: "6'0\"", position: "Port", photo: Pete },
+    { id: 12, name: 'Peter Micciche', year: 'Senior', major: 'Applied Physics and Economics', hometown: 'Lancaster, Pa.', highschool: 'Friends School of Baltimore', height: "6'0\"", position: "Port", photo: Pete },
     // { id: 13, name: 'Mike Montero', year: 'Junior', major: 'Public Health Science', hometown: 'Jarrettsville, Md.', highschool: 'Calvert Hall', height: "5'11\"", position: "Port", photo: Mike },
     // { id: 14, name: 'Shomit Nazare', year: 'Freshman', major: 'Neurobiology & Physiology', hometown: 'Boyds, Md.', highschool: 'Northwest', height: "5'11\"", position: "Port", photo: Shomit },
     // { id: 15, name: 'Tejas Nazare', year: 'Senior', major: 'Mathematics', hometown: 'Boyds, Md.', highschool: 'Richard Montgomery', height: "5'5\"", position: "Starboard", photo: Tejas },
@@ -71,7 +73,10 @@ const Roster = () => {
     { id: 19, name: 'Pyotr Sergeevykh', year: 'Sophomore', major: 'Economics', hometown: 'Baltimore, Md.', highschool: 'Baltmore School for the Arts', height: "6'2\"", position: "Starboard", photo: Pyotr },
     // { id: 20, name: 'Austin Schaeffer', year: 'Senior', major: 'Electrical Engineering', hometown: 'Annapolis, Md.', highschool: 'Old Mill', height: "6'2\"", position: "Starboard", photo: Austin },
     { id: 21, name: 'Anthony van Rheenan', year: 'Junior', major: 'Computer Science', hometown: 'Vienna, Va.', highschool: 'Thomas Jefferson', height: "6'2\"", position: "Port", photo: Anthony },
-    // { id: 22, name: 'Tristan Wolf', year: 'Freshman', major: 'Biology', hometown: 'Baltimore, Md.', highschool: 'Park School of Baltimore', height: "6'2\"", position: "Starboard", photo: Tristan }
+    { id: 22, name: 'Hemin Khalid', year: 'Freshman', major: 'Economics', hometown: 'Duhok, Iraq', highschool: 'Berkshire School', height: "6'0\"", position: "Starboard", photo: Default}, 
+    { id: 23, name: 'Aadi Trivedi', year: 'Junior', major: 'Computer Science and Mathematics', hometown: 'Mumbai, Maharashtra', highschool: 'Arya Gurukul High School', height: "6'2\"", position: 'Starboard', photo: Default},
+    { id: 24, name: 'Erik Johnson', year: 'Freshman', major: 'Computer Science', hometown: 'New Canaan, Ct.', highschool: 'New Canaan High School', height: "5'11\"", position: 'Port', photo: Default},
+    { id: 25, name: 'Jonah Palm', year: 'Senior', major: 'Computer Engineering', hometown: 'Baltimore, Md.', highschool: 'LUOA', height: "5'11\"", position: 'Starboard', photo: Default},
   ];
 
   
