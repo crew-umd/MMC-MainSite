@@ -50,12 +50,12 @@ const Roster = () => {
   };
 
 
-  // Format: { id: , name: '', year: '', major: '', hometown: '', highschool: '', height: "", position: '', photo: },
+  // Format: { id: , name: '', year: '', major: '', hometown: '', highschool: '', height: "", position: '', photo: Default},
   const rosterData = [
     // { id: 1, name: 'Arjun Akkiraju', year: 'Senior', major: 'Computer Science', hometown: 'Saratoga, Calif.', highschool: 'The Harker School', height: "5'9\"", position: "Starboard", photo: Arjun },
-    { id: 2, name: 'Dylan DeAngelo', year: 'Senior', major: 'Mechanical Engineering', hometown: 'Arnold, Md.', highschool: 'Broadneck', height: "6'0\"", position: "Starboard", photo: Dylan },
-    { id: 3, name: 'Graham Elmore', year: 'Senior', major: 'Civil Engineering', hometown: 'Annapolis, Md.', highschool: 'Broadneck', height: "6'0\"", position: "Port", photo: Graham },
-    { id: 4, name: 'Will Fingles', year: 'Senior', major: 'Kinesiology', hometown: 'Ellicot City, Md.', highschool: 'River Hill', height: "5'11\"", position: "Port", photo: Will },
+    // { id: 2, name: 'Dylan DeAngelo', year: 'Senior', major: 'Mechanical Engineering', hometown: 'Arnold, Md.', highschool: 'Broadneck', height: "6'0\"", position: "Starboard", photo: Dylan },
+    // { id: 3, name: 'Graham Elmore', year: 'Senior', major: 'Civil Engineering', hometown: 'Annapolis, Md.', highschool: 'Broadneck', height: "6'0\"", position: "Port", photo: Graham },
+    { id: 4, name: 'William Fingles', year: 'Senior', major: 'Kinesiology', hometown: 'Ellicot City, Md.', highschool: 'River Hill', height: "5'11\"", position: "Port", photo: Will },
     { id: 5, name: 'Onur Gunduz', year: 'Senior', major: 'Computer Science', hometown: 'Fairfax, Va.', highschool: 'Thomas Jefferson', height: "5'11\"", position: "Port", photo: Onur },
     { id: 6, name: 'Clint Hensley', year: 'Sophomore', major: 'Economics', hometown: 'Silver Spring, Md.', highschool: 'Einstein', height: "5'9\"", position: "Starboard", photo: Clint },
     { id: 7, name: 'Prabhat Jain', year: 'Junior', major: 'Computer Science', hometown: 'Sykesville, Md.', highschool: 'Century', height: "5'9\"", position: "Starboard", photo: Prabhat },
@@ -74,9 +74,14 @@ const Roster = () => {
     // { id: 20, name: 'Austin Schaeffer', year: 'Senior', major: 'Electrical Engineering', hometown: 'Annapolis, Md.', highschool: 'Old Mill', height: "6'2\"", position: "Starboard", photo: Austin },
     { id: 21, name: 'Anthony van Rheenan', year: 'Junior', major: 'Computer Science', hometown: 'Vienna, Va.', highschool: 'Thomas Jefferson', height: "6'2\"", position: "Port", photo: Anthony },
     { id: 22, name: 'Hemin Khalid', year: 'Freshman', major: 'Economics', hometown: 'Duhok, Iraq', highschool: 'Berkshire School', height: "6'0\"", position: "Starboard", photo: Default}, 
-    { id: 23, name: 'Aadi Trivedi', year: 'Junior', major: 'Computer Science and Mathematics', hometown: 'Mumbai, Maharashtra', highschool: 'Arya Gurukul High School', height: "6'2\"", position: 'Starboard', photo: Default},
+    // { id: 23, name: 'Aadi Trivedi', year: 'Junior', major: 'Computer Science and Mathematics', hometown: 'Mumbai, Maharashtra', highschool: 'Arya Gurukul High School', height: "6'2\"", position: 'Starboard', photo: Default},
     { id: 24, name: 'Erik Johnson', year: 'Freshman', major: 'Computer Science', hometown: 'New Canaan, Ct.', highschool: 'New Canaan High School', height: "5'11\"", position: 'Port', photo: Default},
     { id: 25, name: 'Jonah Palm', year: 'Senior', major: 'Computer Engineering', hometown: 'Baltimore, Md.', highschool: 'LUOA', height: "5'11\"", position: 'Starboard', photo: Default},
+    { id: 26, name: 'David Chen', year: '', major: '', hometown: '', highschool: '', height: "", position: '', photo: Default}, 
+    { id: 27, name: 'Max Gramling', year: '', major: '', hometown: '', highschool: '', height: "", position: '', photo: Default},
+    { id: 28, name: 'Peter Bundy', year: '', major: '', hometown: '', highschool: '', height: "", position: '', photo: Default},
+    { id: 29, name: 'Ruben Beneitez', year: '', major: '', hometown: '', highschool: '', height: "", position: '', photo: Default},
+    { id: 30, name: 'Shomit Nazare', year: 'Sophomore', major: '', hometown: '', highschool: '', height: "", position: '', photo: Default},
   ];
 
   
