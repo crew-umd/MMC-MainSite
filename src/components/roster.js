@@ -78,7 +78,7 @@ const Roster = () => {
     { id: 24, name: 'Erik Johnson', year: 'Freshman', major: 'Computer Science', hometown: 'New Canaan, Ct.', highschool: 'New Canaan High School', height: "5'11\"", position: 'Port', photo: Default},
     { id: 25, name: 'Jonah Palm', year: 'Senior', major: 'Computer Engineering', hometown: 'Baltimore, Md.', highschool: 'LUOA', height: "5'11\"", position: 'Starboard', photo: Default},
     { id: 26, name: 'David Chen', year: '', major: '', hometown: '', highschool: '', height: "", position: '', photo: Default}, 
-    { id: 27, name: 'Max Gramling', year: '', major: '', hometown: '', highschool: '', height: "", position: '', photo: Default},
+    { id: 27, name: 'Max Gramling', year: 'Freshman', major: 'Environmental Science and Technology', hometown: 'New York, NY', highschool: 'Fordham Preparatory', height: "6'4\"", position: 'Starboard', photo: Default},
     { id: 28, name: 'Peter Bundy', year: '', major: '', hometown: '', highschool: '', height: "", position: '', photo: Default},
     { id: 29, name: 'Ruben Beneitez', year: '', major: '', hometown: '', highschool: '', height: "", position: '', photo: Default},
     { id: 30, name: 'Shomit Nazare', year: 'Sophomore', major: '', hometown: '', highschool: '', height: "", position: '', photo: Default},
