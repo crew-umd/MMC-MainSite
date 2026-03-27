@@ -20,7 +20,8 @@ import mason from '../images/mason.png';
 import vcu from '../images/vcu.jpeg';
 // import psucrew from '../images/psu_crew_logo.png'
 //import occoquan_chase from '../images/Occoquan Chase.png'
-import kerrcup from '../images/drexel.jpg';
+//import kerrcup from '../images/drexel.jpg';
+import knecht from '../images/knecht.png'
 
 
 const Schedule = () => {
@@ -38,23 +39,12 @@ const Schedule = () => {
 
 
   const scheduleData = [
-    { id: 1, name: 'Commonwealth Sprints Regatta', date: 'April 6th (Sun)', location: 'Richmond, Va.', link: 'https://www.regattacentral.com/regatta/?job_id=9565&org_id=0', photo: vcu },
-    { id: 2, name: 'Kerr Cup', date: 'April 19 (Sat)', location: 'Philadelphia, Pa.', link: 'https://www.kerrcupregatta.com/', photo: kerrcup },
-    { id: 3, name: 'Mid Atlantic Crew Championship', date: 'April 27 (Sun)', location: 'Fairfax Station, Va.', link: 'https://www.gomasoncrew.com/maccc', photo: mason },
-    { id: 4, name: 'Dad Vail Regatta', date: 'May 9th (Fri)', location: 'Pennsauken, NJ. ', link: 'https://dadvail.org/', photo: dadvail }
+    { id: 1, name: 'Commonwealth Sprints Regatta', date: 'Saturday, March 28th', location: 'Richmond, VA.', link: 'https://www.regattacentral.com/regatta/?job_id=10267&org_id=0', photo: vcu },
+    { id: 2, name: 'Knecht Cup', date: 'Saturday, April 11th - Sunday, April 12th', location: 'Cooper River, N.J.', link: 'https://knechtcupregatta.com', photo: knecht },
+    { id: 3, name: 'Mid Atlantic Collegiate Crew Championship', date: 'Sunday, April 26th', location: 'Occoquan, VA.', link: 'https://www.regattacentral.com/regatta/index.jsp?job_id=10125', photo: mason },
+    { id: 4, name: 'Dad Vail Regatta', date: 'Friday, May 8th - Saturday, May 9th', location: 'Pennsauken, N.J. ', link: 'https://dadvail.org/', photo: dadvail }
     // { id: 5, name: 'Head of the Occoquan', date: 'Nov 2 (Sat)', location: 'Fairfax Station, Va.', link: 'https://www.rowobc.org/regattas-camps/hoto', photo: mason },
     // { id: 6, name: 'Philadelphia Frostbite Regatta', date: 'Nov 10 (Sun)', location: 'West Windsor, NJ.', link: 'https://pennsylvaniabargeclub.org/philadelphia-frostbite-regatta/', photo: frostbite },
-
-    // { id: 2, name: 'Graham Elmore', year: 'Sophomore', major: 'Mechanical Engineering', hometown: 'Annapolis, Md.', highschool: 'Broadneck', height: "6'0\"", position: "Port", photo: john },
-    // { id: 3, name: 'Onur Gunduz', year: 'Sophomore', major: 'Computer Science', hometown: 'Fairfax, Va.', highschool: 'Thomas Jefferson', height: "5'11\"", position: "Port", photo: john },
-    // { id: 4, name: 'Prabhat Jain', year: 'Freshman', major: 'Computer Science', hometown: 'Sykesville, Md.', highschool: 'Century', height: "5'9\"", position: "Starboard", photo: john },
-    // { id: 5, name: 'Derrick Jones', year: 'Freshman', major: 'Undeclared', hometown: 'Upper Marlboro, Md.', highschool: 'Oxon Hill', height: "5'5\"", position: "Coxswain", photo: john },
-    // { id: 6, name: 'Peter Micciche', year: 'Sophomore', major: 'Economics & Finance', hometown: 'Lancaster, Pa.', highschool: 'Friends School of Baltimore', height: "6'0\"", position: "Port", photo: john },
-    // { id: 7, name: 'Braden Nowicki', year: 'Sophomore', major: 'Astronomy & Computer Science', hometown: 'Reading, Mass.', highschool: 'Reading Memorial', height: "6'0\"", position: "Starboard", photo: john },
-    // { id: 8, name: 'Arjun Pinto', year: 'Freshman', major: 'Mechanical Engineering', hometown: 'Baltimore, Md.', highschool: 'Mount Saint Joseph', height: "5'8\"", position: "Starboard", photo: john },
-    // { id: 9, name: 'Connor Pymm', year: 'Junior', major: 'Computer Science', hometown: 'Ellicott City, Md.', highschool: 'Centennial', height: "6'0\"", position: "Port", photo: john },
-    // { id: 10, name: 'AJ Robey', year: 'Freshman', major: 'Physiology & Neurobiology', hometown: 'Poolesville, Md.', highschool: 'Poolesville', height: "5'5\"", position: "Port", photo: john },
-    // { id: 11, name: 'Anthony van Rheenan', year: 'Freshman', major: 'Computer Science', hometown: 'Vienna, Va.', highschool: 'Thomas Jefferson', height: "6'2\"", position: "Port", photo: john },
   ];
 
   
