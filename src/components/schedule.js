@@ -84,7 +84,7 @@ const Schedule = () => {
           fontFamily: '"source-sans-pro", sans-serif',
           fontWeight: '700',
           }}
-          >Spring 2025 Schedule</Typography>
+          >Spring 2026 Schedule</Typography>
         
         <Divider></Divider>
         {scheduleData.map((race) => (
