@@ -77,11 +77,11 @@ const Roster = () => {
     // { id: 23, name: 'Aadi Trivedi', year: 'Junior', major: 'Computer Science and Mathematics', hometown: 'Mumbai, Maharashtra', highschool: 'Arya Gurukul High School', height: "6'2\"", position: 'Starboard', photo: Default},
     { id: 24, name: 'Erik Johnson', year: 'Freshman', major: 'Computer Science', hometown: 'New Canaan, Ct.', highschool: 'New Canaan High School', height: "5'11\"", position: 'Port', photo: Default},
     { id: 25, name: 'Jonah Palm', year: 'Senior', major: 'Computer Engineering', hometown: 'Baltimore, Md.', highschool: 'LUOA', height: "5'11\"", position: 'Starboard', photo: Default},
-    { id: 26, name: 'David Chen', year: '', major: '', hometown: '', highschool: '', height: "", position: '', photo: Default}, 
+    { id: 26, name: 'David Chen', year: 'Sophomore', major: 'Computer Science & Mathematics', hometown: 'Rockville, Md.', highschool: 'Thomas S. Wootton High School', height: "5'10\"", position: 'Coxswain', photo: Default}, 
     { id: 27, name: 'Max Gramling', year: 'Freshman', major: 'Environmental Science and Technology', hometown: 'New York, NY', highschool: 'Fordham Preparatory', height: "6'4\"", position: 'Starboard', photo: Default},
-    { id: 28, name: 'Peter Bundy', year: '', major: '', hometown: '', highschool: '', height: "", position: '', photo: Default},
-    { id: 29, name: 'Ruben Beneitez', year: '', major: '', hometown: '', highschool: '', height: "", position: '', photo: Default},
-    { id: 30, name: 'Shomit Nazare', year: 'Sophomore', major: '', hometown: '', highschool: '', height: "", position: '', photo: Default},
+    { id: 28, name: 'Peter Bundy', year: 'Junior', major: 'Electrical Engineering', hometown: 'Fredrick, Md.', highschool: 'Urbana High School', height: "6'2\"", position: 'Port', photo: Default},
+    { id: 29, name: 'Ruben Beneitez', year: 'Senior', major: 'Aerospace Engineering', hometown: 'Madrid, Spain', highschool: 'Colegio Nuestra Señora del Pilar', height: "6'1\"", position: 'Port', photo: Default},
+    { id: 30, name: 'Shomit Nazare', year: 'Sophomore', major: 'Physiology & Neurobiology (B.S.) and Psychology (B.S)', hometown: 'Boyds, Md.', highschool: 'Northwest High School', height: "5'7\"", position: 'Port', photo: Default},
   ];
 
   
