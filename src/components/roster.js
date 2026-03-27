@@ -122,7 +122,7 @@ const Roster = () => {
           fontFamily: '"source-sans-pro", sans-serif',
           fontWeight: '1000',
           }}
-          >Fall 2025 Roster</Typography>
+          >Spring 2026 Roster</Typography>
         
         <Divider></Divider>
         {rosterData.map((rower) => (
