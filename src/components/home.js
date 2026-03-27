@@ -5,7 +5,7 @@ import Container from "@mui/material/Container";
 import Link from "@mui/material/Link";
 import { Link as RouterLink } from "react-router-dom";
 // import mainImage from "../images/mainpage.png";
-import mainImage from "../images/fall24chase_text.jpg";
+import mainImage from "../images/home.jpeg";
 // import fall24 from "../images/fall24.png";
 import Grid from "@mui/material/Grid";
 import joinTeam from "../images/fours.png";
@@ -92,7 +92,7 @@ const Home = () => {
                   maxWidth: "400px",
                 }}
               >
-                We are actively recruiting for the Spring 2025 season. If you
+                We are actively recruiting for the Spring 2026 season. If you
                 are interested in joining the team, please visit our{" "}
                 <Link component={RouterLink} to="/recruiting">
                   recruitment page
